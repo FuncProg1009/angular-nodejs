@@ -1,0 +1,72 @@
+<div class="container-fluid">
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-2 order-lg-1">
+          <h2>{{product.name}}</h2>
+          <p>{{product.gender}}</p>
+          <p>{{product.note}}</p>
+          <table class="table mt-5 mb-4 responsive">
+            <tbody>
+            <tr>
+              <td>PRICE</td>
+              <td class="text-right">${{product.price}}</td>
+            </tr>
+            <tr>
+              <td>SALE</td>
+              <td class="text-right">0%</td>
+            </tr>
+            <tr>
+              <td class="font-weight-bold">TOTAL :</td>
+              <td class="text-right">${{product.price}}</td>
+            </tr>
+            </tbody>
+          </table>
+          <button class="btn btn-primary">Buy Now!</button>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 mb-5 mb-lg-0"><img class="img-fluid" src="assets/images/w2.jpg" alt="">
+          <div class="d-flex justify-content-between w-100 mt-4">
+            <div class="p-0"><img class="w-100" src="assets/images/w2.jpg" alt=""></div>
+            <div class="p-0 mx-4"><img class="w-100" src="assets/images/w2.jpg" alt=""></div>
+            <div class="p-0"><img class="w-100" src="assets/images/w2.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-5 text-center">Service & Support</h2>
+      <div class="accordion" id="faq-01">
+        <div class="mb-2 border-bottom">
+          <h5 id="faq-heading1-01">
+            <button class="btn btn-link btn-block text-left d-flex" type="button" data-toggle="collapse" data-target="#faq-collapse1-01" aria-expanded="false" aria-controls="faq-collapse1-01" style="white-space:normal !important; word-wrap: break-word">Warranty Policy ?<img class="p-1 ml-auto my-auto" src="placeholder/icons/chevron-circle-down.svg" alt=""></button>
+          </h5>
+          <div class="collapse" id="faq-collapse1-01" aria-labelledby="faq-heading1-01" data-parent="#faq-01">
+            <p>We make warranty in 24 months. </p>
+          </div>
+        </div>
+        <div class="mb-2 border-bottom">
+          <h5 id="faq-heading2-01">
+            <button class="btn btn-link btn-block text-left d-flex" type="button" data-toggle="collapse" data-target="#faq-collapse2-01" aria-expanded="false" aria-controls="faq-collapse2-01" style="white-space:normal !important; word-wrap: break-word">Receive & Return ?<img class="p-1 ml-auto my-auto" src="placeholder/icons/chevron-circle-down.svg" alt=""></button>
+          </h5>
+          <div class="collapse" id="faq-collapse2-01" aria-labelledby="faq-heading2-01" data-parent="#faq-01">
+           <p>Receive and return in one month if there was a mistake from producer (this not apply for the problems cause by the costumer side )</p>
+          </div>
+        </div>
+        <div class="mb-2 border-bottom">
+          <h5 id="faq-heading3-01">
+            <button class="btn btn-link btn-block text-left d-flex" type="button" data-toggle="collapse" data-target="#faq-collapse3-01" aria-expanded="false" aria-controls="faq-collapse3-01" style="white-space:normal !important; word-wrap: break-word">Delivery ?<img class="p-1 ml-auto my-auto" src="placeholder/icons/chevron-circle-down.svg" alt=""></button>
+          </h5>
+          <div class="collapse" id="faq-collapse3-01" aria-labelledby="faq-heading3-01" data-parent="#faq-01">
+            <p>Delivery in around 12 hours as fast as possible.</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+</div>

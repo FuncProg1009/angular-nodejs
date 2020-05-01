@@ -1,0 +1,30 @@
+<div class="container-fluid">
+
+  <section class="py-5">
+    <div class="container text-center">
+      <h2>News</h2>
+      <p class="mb-5 b font-weight-bold">SEKIO</p>
+
+      <div class="row">
+        <div class="col-md-9 mx-auto">
+          <div class="row justify-content-center">
+            <div class="col-md-4 col-lg-3 mb-4" *ngFor="let product of products" ><img class="mb-3 rounded-circle" src="assets/images/w1.jpg" height="90" alt="">
+              <h6 class="mb-0"><a routerLink="/detail/{{product._id}}">{{product.name}}</a></h6>
+              <small>GENDER :<small class="text-primary">{{product.gender}}</small></small><br>
+              <small>PRICE :<small class="text-success">${{product.price}}</small></small><br>
+              <small class="font-italic">{{product.note}}</small><br>
+            </div>
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
