@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngApp"
+    }
+  },
+  "defaultProject": "ngApp",
+  "cli": {
+    "analytics": "74806fd6-e390-48dc-be8a-0b3077f2cd41"
+  }
 }
